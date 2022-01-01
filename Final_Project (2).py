@@ -3,7 +3,8 @@ email_pengirim = input('masukkan alamat email anda : ')
 print(email_pengirim)
 
 #################email_penerima########################
-email_penerima1 = input('masukkan email penerima : ')
+email_penerima1 = 'masukkan email penerima : '
+print(email_penerima1)
 email_penerima = open("D:/receiver_list.txt", "r")
 print(email_penerima.read())
 
